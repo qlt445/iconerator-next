@@ -8,6 +8,7 @@ var assert = require('assert'),
     config = require('../lib/config'),
     iconerator = require('../lib/iconerator'),
     testImg = path.resolve(__dirname, "./sliceisright.png"),
+    testImg2 = path.resolve(__dirname, "./sliceisright.png"),
     outputPath = path.resolve(__dirname, "./output"),
     timeout = 3000;
 
@@ -44,7 +45,7 @@ describe('iconerator', function(){
 
     it('can generate all platform images and proper output directories', function(cb){
         this.timeout(timeout);
-        iconerator.generateIcons(testImg, outputPath, null, null, function(err){
+        iconerator.generateIcons(testImg, testImg2, testImg3, outputPath, null, null, function(err){
             assert.ifError(err);
 
             assert(fs.statSync(path.join(outputPath, config.output.iosDir)).isDirectory());
@@ -77,7 +78,7 @@ describe('iconerator', function(){
 
     it('can generate only iOS images and proper output directories', function(cb){
         this.timeout(timeout);
-        iconerator.generateIcons(testImg, outputPath, "ios", null, function(err){
+        iconerator.generateIcons(testImg, testImg2, testImg3, outputPath, "ios", null, function(err){
             assert.ifError(err);
 
             assert(fs.statSync(path.join(outputPath, config.output.iosDir)).isDirectory());
@@ -94,7 +95,7 @@ describe('iconerator', function(){
 
     it('can generate only Web images and proper output directories', function(cb){
         this.timeout(timeout);
-        iconerator.generateIcons(testImg, outputPath, "web", null, function(err){
+        iconerator.generateIcons(testImg, testImg2, testImg3, outputPath, "web", null, function(err){
             assert.ifError(err);
 
             assert(fs.statSync(path.join(outputPath, config.output.webDir)).isDirectory());
@@ -111,7 +112,7 @@ describe('iconerator', function(){
 
     it('can generate only Android images and proper output directories', function(cb){
         this.timeout(timeout);
-        iconerator.generateIcons(testImg, outputPath, "android", null, function(err){
+        iconerator.generateIcons(testImg, testImg2, testImg3, outputPath, "android", null, function(err){
             assert.ifError(err);
 
             assert(!fs.existsSync(path.join(outputPath, config.output.webDir)));
