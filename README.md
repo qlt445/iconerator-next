@@ -1,7 +1,7 @@
 Fork from: https://github.com/alexanderscott/iconerator
 
 This fork has some new features:
-- Automatically add 8.33% (from: Material Design Guide) in Android icons;
+- Automatically add 8.33% (from: Material Design Guide) of corner radius on Android icons;
 - Double Android icons: square and rounded version;
 - Auto move exported icons to Android and iOS folder;
 
