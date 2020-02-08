@@ -1,8 +1,8 @@
 # Ignore node modules
 node_modules
 
-ios
-android
-web
+ios_icons
+android_icons
+web_icons
 icon.png
 tmp
