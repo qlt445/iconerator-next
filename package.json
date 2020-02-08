@@ -1,5 +1,5 @@
 {
-  "name": "iconerator",
+  "name": "iconerator-next",
   "keywords": [
     "icons",
     "app icons",
@@ -9,12 +9,15 @@
   ],
   "private": false,
   "description": "Generate all app market icons from a single input image (iOS + Android + Web)",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexanderscott/iconerator.git"
+    "url": "https://github.com/mayconmesquita/iconerator-next"
   },
-  "author": "Alex Ehrnschwender <alexanderscott46@gmail.com> (https://ehrns.com)",
+  "bugs": {
+    "url": "https://github.com/mayconmesquita/iconerator-next/issues"
+  },
+  "author": "Maycon Mesquita <hello@maycon.dev>",
   "dependencies": {
     "async": "0.2.5",
     "commander": "~2.0.0",
