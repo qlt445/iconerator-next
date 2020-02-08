@@ -1,18 +1,19 @@
-Fork from: https://github.com/alexanderscott/iconerator
-
-This fork has some new features:
+### This fork has some new features:
 - Automatically add 8.33% (from: Material Design Guide) of corner radius on Android icons;
 - Double Android icons: square and rounded version;
 - Auto move exported icons to Android and iOS folder;
+- Windows compatibility;
 
-iconerator 
+Fork from: https://github.com/alexanderscott/iconerator
+
+iconerator-next
 =========
-[![NPM version](https://badge.fury.io/js/iconerator.svg)](http://badge.fury.io/js/iconerator)
-[![Build Status](https://secure.travis-ci.org/alexanderscott/iconerator.png)](http://travis-ci.org/alexanderscott/iconerator)
+[![NPM version](https://badge.fury.io/js/iconerator.svg)](http://badge.fury.io/js/iconerator-next)
+[![Build Status](https://secure.travis-ci.org/alexanderscott/iconerator-next.png)](http://travis-ci.org/alexanderscott/iconerator)
 
 Automatically generate all app market icons from a single image (iOS + Android + Web).
 
-[![NPM](https://nodei.co/npm/iconerator.png?downloads=true)](https://nodei.co/npm/iconerator/)
+[![NPM](https://nodei.co/npm/iconerator-next.png?downloads=true)](https://nodei.co/npm/iconerator-next/)
 
 
 ## Installation
@@ -23,7 +24,7 @@ First download and install GraphicsMagick or ImageMagick. In Mac OS X, you can s
 
 Then install iconerator via npm with:
 
-`npm install -g iconerator`
+`npm install -g iconerator-next`
 
 
 ## Usage
