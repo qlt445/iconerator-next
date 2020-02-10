@@ -1,5 +1,5 @@
 ### This fork has some new features:
-- Automatically add 20% ([from: Material Design Guide](https://developer.android.com/google-play/resources/icon-design-specifications#corner_radius)) of corner radius on Android icons;
+- Automatically add 20% ([Google Play Guide](https://developer.android.com/google-play/resources/icon-design-specifications#corner_radius)) of corner radius on Android icons;
 - Double Android icons: square and rounded version;
 - Auto move exported icons to Android and iOS folder;
 - Windows compatibility;
