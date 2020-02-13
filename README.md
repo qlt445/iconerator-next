@@ -2,6 +2,7 @@
 - Automatically add 9.09% ([Material Design Guide](https://material.io/design/platform-guidance/android-icons.html#keyline-shapes)) of corner radius on Android icons;
 - Double Android icons: square and rounded version;
 - Auto move exported icons to Android and iOS folder;
+- Pass optional file path to generate an optimized round icon;
 - Windows compatibility;
 
 Fork from: https://github.com/alexanderscott/iconerator
@@ -34,13 +35,14 @@ Then install iconerator via npm with:
   
 #### Options:
 
-    -h, --help      output usage information
-    -V, --version   output the version number
-    --only-ios      Only generate iOS icons
-    --only-android  Only generate Android icons
-    --only-iphone   Only generate iPhone icons
-    --only-ipad     Only generate iPad icons
-    --only-web      Only generate Web icons
+    -h, --help          output usage information
+    -V, --version       output the version number
+    --only-ios          Only generate iOS icons
+    --only-android      Only generate Android icons
+    --only-iphone       Only generate iPhone icons
+    --only-ipad         Only generate iPad icons
+    --only-web          Only generate Web icons
+    --round-file <path> Pass icon to round (Android only)
     
     
 ## Configuration
