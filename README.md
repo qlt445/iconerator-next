@@ -7,10 +7,10 @@
 
 Fork from: https://github.com/alexanderscott/iconerator
 
-iconerator-next
-=========
+# iconerator-next
+
 [![NPM version](https://badge.fury.io/js/iconerator-next.svg)](http://badge.fury.io/js/iconerator-next)
-[![Build Status](https://secure.travis-ci.org/alexanderscott/iconerator-next.png)](http://travis-ci.org/alexanderscott/iconerator-next)
+[![Build Status](https://secure.travis-ci.org/mayconmesquita/iconerator-next.png)](http://travis-ci.org/mayconmesquita/iconerator-next)
 
 Automatically generate all app market icons from a single image (iOS + Android + Web).
 
