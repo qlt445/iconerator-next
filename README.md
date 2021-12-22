@@ -2,6 +2,7 @@
 - Automatically add 9.09% ([Material Design Guide](https://material.io/design/platform-guidance/android-icons.html#keyline-shapes)) of corner radius on Android icons;
 - Double Android icons: square and rounded version;
 - Auto move exported icons to Android and iOS folder;
+- Generates hi-res android icons to be used as splashscreens;
 - Pass optional file path to generate an optimized round icon;
 - Windows compatibility;
 
